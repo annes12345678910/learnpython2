@@ -9,7 +9,8 @@ import platform as p
 level = "menu"
 ismovinglevel = True
 lang = "en"
-
+def animate(folder, speed, ):
+    items = os.listdir(folder)
 def code():
     codee = d.display_text_input("Enter Code")
     out = subprocess.run(

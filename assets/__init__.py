@@ -104,7 +104,24 @@ ph = load("object/"+"placeholder.png")
 dev = load("object/"+"DEV.png")
 garden = load("map/"+"garden.png")
 quest1 = load("map/"+"quest1.png")
+
 school = load("object/"+"school.png")
+schoolrect = school.get_rect()
+
+demons = [
+    load("object/"+"demon1.png"),
+    load("object/"+"demon2.png"),
+    load("object/"+"demon3.png"),
+]
+beetle = load("object/"+"beetle.png")
+beetleded = load("object/"+"beetleded.png")
+
+no = load("object/"+"NO.png")
+noded = load("object/"+"NOdead.png")
+app = load("object/"+"app.png")
+annesos = load("object/"+"ANNESOS.png")
+devteam = load("object/"+"devteam.png")
+
 loa = load("object/"+"load.png")
 loa = pygame.transform.scale(loa, (50,100))
 loar = loa.get_rect()
@@ -123,6 +140,7 @@ lycan = loadaudio("music/"+"lycanthropy.wav")
 a1 = loadaudio("music/"+"1_a.ogg")
 b1 = loadaudio("music/"+"1_b.ogg")
 bb2 = loadaudio("music/"+"2_bb.ogg")
+codemaniac = loadaudio("music/"+"CodeLikeaManiac.mp3")
 
 dots = loadfont("dots.ttf", 20)
 gi = loadfont("gi.ttf", 20)
